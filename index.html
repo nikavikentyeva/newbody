@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+  />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <title>newbody</title>
+</head>
+
+<body>
+<!-- header -->
+<header class="header bg" id="header">
+  <div class="header__container container">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="index.html"><img src="images/logo.svg" alt="newbody"></a>
+      </div>
+
+
+      <div class="header__nav">
+        <nav class="nav" id="nav">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="#how">Как работает приложение</a></li>
+            <li><a class="nav__link" href="#features">Преимущества</a></li>
+            <li> <a class="nav__link" href="#team">Команда</a></li>
+            <li>
+              <a href="#" class="lang__link">Язык</a>
+              <span class="arrow"></span>
+                 <ul class="lang-menu__sub-list">
+                   <li class="lang-menu__sub-li"><a href="#" class="lang-menu__sub-link rus">Русский</a></li>
+                   <li class="lang-menu__sub-li"><a href="#" class="lang-menu__sub-link eng">Английский</a></li>
+                 </ul>
+             </li>
+          </ul>
+          <div class="intro__download-burger">
+            <a href="https://play.google.com/store" target="_blank" class="download"><img class="intro__app" src="images/app.svg" alt="AppStore"></a>
+            <a href="https://play.google.com/store" target="_blank" class="download"><img class="intro__google" src="images/google.svg" alt="GooglePlay"></a>
+          </div>
+
+          <ul class="menu__list-burger">
+            <li class="menu__list"><a class="link">Поддержка</a></li>
+            <li class="menu__list"><a class="link">Связаться с нами</a></li>
+          </ul>
+
+          <div class="menu__socials-burger">
+            <a class="socials" href="https://www.instagram.com" target="_blank"><img src="images/socials-burger/1.svg" alt=""></a>
+            <a class="socials" href="https://web.telegram.org" target="_blank"><img src="images/socials-burger/2.svg" alt=""></a>
+            <a class="socials" href="https://www.facebook.com" target="_blank"><img src="images/socials-burger/3.svg" alt=""></a>
+          </div>
+
+          <ul class="menu__link-burger">
+            <li class="menu__list"><a class="link">Политика конфиден.</a></li>
+            <li class="menu__list"><a class="link">Условия</a></li>
+          </ul>
+          <div class="footer__copyright-burger">© 2021 newbody. Все права защищены.</div>
+        </nav>
+
+      </div>
+
+
+      <div class="header__burger">
+        <span></span>
+      </div>
+
+    </div> <!-- /.header__inner -->
+  </div> <!-- /.container -->
+</header>
+
+<!-- intro -->
+<div class="intro bg" id="intro">
+  <div class="intro__container container">
+    <div class="intro__inner">
+
+      <div class="intro__info">
+        <h1 class="intro__title">Мы умеем предсказывать,<br><span>как вы можете выглядеть!</span></h1>
+        <p class="intro__text">Мы поможем вам изменить<br>тело и в реальности</p>
+        <div class="intro__download">
+          <a href="https://play.google.com/store" target="_blank"><img class="intro__app download" src="images/app.svg" alt="AppStore"></a>
+          <a href="https://play.google.com/store" target="_blank"><img class="intro__google download" src="images/google.svg" alt="GooglePlay"></a>
+        </div>
+      </div> <!-- /.intro__info -->
+
+      <div class="intro__photo">
+        <picture>
+          <source class="intro__before" srcset="images/min__before.png" media="(max-width: 1140px)">
+          <img class="intro__before" src="images/before.png" alt="">
+        </picture>
+
+        <picture>
+          <source srcset="images/min__after.png" media="(max-width: 1140px)">
+          <img src="images/after.png" alt="">
+        </picture>
+      </div>
+
+
+    </div> <!-- /.intro__inner -->
+  </div> <!-- /.container -->
+</div> <!-- /.intro -->
+
+<!--! section try demo version-->
+<section class="demo">
+  <div class="demo__container container">
+    <div class="demo__inner">
+
+      <div class="demo__item">
+        <div class="demo__title">Проект находится на последней стадии разработки</div>
+        <div class="demo__countdown">
+          <div class="demo__timer">
+            <div class="demo__timer-item">
+              <div class="demo__timer-number">0</div>
+            </div>
+            <div class="demo__timer-item">
+              <div class="demo__timer-number">0</div>
+            </div>
+            <div class="demo__timer-item">
+              <div class="demo__timer-number">0</div>
+            </div>
+            <div class="demo__timer-item">
+              <div class="demo__timer-number">0</div>
+            </div>
+            <div class="demo__timer-item">
+              <div class="demo__timer-number">0</div>
+            </div>
+            <div class="demo__timer-item">
+              <div class="demo__timer-number red">3</div>
+            </div>
+          </div>
+          <div class="demo__heart">
+              <img class="heart" src="images/heart_normal.svg" alt="heart">
+          </div>
+        </div>
+      </div>
+
+      <div class="demo__item">
+        <div class="demo__text">Если вы хотите одним из первых опробовать<br>уникальное приложение и получить пробную
+          версию,<br>то оставьте электронную почту
+        </div>
+        <div class="demo__input">
+          <form action="/" method="post">
+           <label for="demo__input"></label>
+            <input id="demo__input" type="email" name="name" placeholder="Электронная почта" onkeyup="checkParams()">
+            <input class="demo__btn"  id="demo__btn"  type="submit" value="Отправить" disabled="disabled">
+          </form>
+        </div>
+      </div>
+
+    </div> <!-- /.demo__inner -->
+  </div> <!-- /.container -->
+</section>
+
+
+<!--! section how-->
+<section class="how section" id="how">
+  <div class="how__container container">
+    <div class="how__title title">Как работает приложение</div>
+    <div class="how__inner">
+    <div class="how__adaptive">
+      <img src="images/stepsmobile.svg" alt="">
+    </div>
+    <div class="how__items">
+      <div class="how__item one">
+        <div class="how__icon">
+          <img class="how__img" src="images/icons/1.svg" alt="">
+        </div>
+        <div class="how__text">Вам нужно сфотографироваться<br>или выбрать фотографию</div>
+      </div>
+
+      <div class="how__item two">
+        <div class="how__icon">
+          <img class="how__img" src="images/icons/2.svg" alt="">
+        </div>
+        <div class="how__text">Получите фотографию вашего<br><span>обновлённого спортивного тела</span></div>
+      </div>
+
+      <div class="how__item three">
+        <div class="how__icon">
+          <img class="how__img" src="images/icons/3.svg" alt="">
+        </div>
+        <div class="how__plan">
+          <div class="plan__text how__text">Формирование индивидуального<br>тренировочного плана:</div>
+          <ul class="plan__ul">
+            <li class="plan__li green">Тренировки</li>
+            <li class="plan__li blue">Питание</li>
+            <li class="plan__li violet">Сон</li>
+          </ul>
+        </div>
+      </div>
+
+    <div class="how__steps">
+      <img src="images/steps.svg" alt="">
+    </div>
+
+      <div class="how__item item">
+        <div class="how__icon">
+          <img class="how__img" src="images/icons/4.svg" alt="">
+        </div>
+        <div class="how__text">Обработка фотографии<br>алгоритмами Искусственного<br>Интеллекта</div>
+      </div>
+
+      <div class="how__item five">
+        <div class="how__icon">
+          <img class="how__img" src="images/icons/5.svg" alt="">
+        </div>
+        <div class="how__type">
+          <div class="how__text">Также будут определены:</div>
+          <ul class="how__ul">
+            <li class="how__li">Тип телосложения</li>
+            <li class="how__li">Степень накаченности</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div> <!-- /.container -->
+</section>
+
+<!--! section features -->
+<section class="section bg" id="features">
+  <div class="section__container container">
+    <div class="section__title title">Преимущества</div>
+    <div class="section__features">
+      <div class="features__list">
+
+        <div class="features__item">
+          <div class="features__icon">
+            <img src="images/features/1.svg" alt="">
+          </div>
+          <div class="features__info">
+            <div class="features__title">Декомпозированный план</div>
+            <div class="features__text">Ежедневные задачи на протяжении всего периода<br>для достижения результатов. Мы
+              знаем, что вы должны<br>делать сегодня, завтра, через полгода — всегда
+            </div>
+          </div>
+        </div> <!-- /.features__item-->
+
+        <div class="features__item">
+          <div class="features__icon">
+            <img src="images/features/2.svg" alt="">
+          </div>
+          <div class="features__info">
+            <div class="features__title">Искусственный интеллект</div>
+            <div class="features__text">Алгоритмы, разработанные благодаря нейронным сетям, предсказывающие, как вы
+              можете выглядеть, определяющие тип вашего телосложения и степень накаченности вашего тела
+            </div>
+          </div>
+        </div> <!-- /.features__item-->
+
+        <div class="features__item">
+          <div class="features__icon">
+            <img src="images/features/3.svg" alt="">
+          </div>
+          <div class="features__info">
+            <div class="features__title">Индивидуальный подход</div>
+            <div class="features__text">Персонализированная программа,основанная на вашем типе телосложения и текущем
+              прогрессе, включая тренировки, сон и питание
+            </div>
+          </div>
+        </div> <!-- /.features__item-->
+
+        <div class="features__item">
+          <div class="features__icon">
+            <img src="images/features/4.svg" alt="">
+          </div>
+          <div class="features__info">
+            <div class="features__title">Прогресс</div>
+            <div class="features__text">Визуализация вашего успеха, отображение личных показателей, графиков и ближайших
+              планов
+            </div>
+          </div>
+        </div> <!-- /.features__item-->
+
+        <div class="features__item">
+          <div class="features__icon">
+            <img src="images/features/5.svg" alt="">
+          </div>
+          <div class="features__info">
+            <div class="features__title">Контроль питания и сна</div>
+            <div class="features__text">Сбалансированное питание из основных натуральных продуктов и ежедневные
+              рекомендации по сну
+            </div>
+          </div>
+        </div> <!-- /.features__item-->
+      </div>
+
+      <div class="features__img"></div>
+    </div> <!-- /.section__features-->
+  </div> <!-- /.container -->
+</section>
+
+<!-- section__team -->
+<section class="section" id="team">
+  <div class="section__container">
+    <div class="section__title title">Команда newbody</div>
+    <div class="section__slider swiper">
+      <div class="section__team swiper-wrapper">
+
+            <div class="team__item swiper-slide">
+              <div class="team__photo">
+                <img src="images/team/1.png" alt="">
+              </div>
+              <div class="team__name">Урбан Алексей</div>
+              <div class="team__prof">Founder, CEO</div>
+            </div>
+
+            <div class="team__item swiper-slide">
+              <div class="team__photo">
+                <img src="images/team/2.png" alt="">
+              </div>
+              <div class="team__name">Гомкцян Мигран</div>
+              <div class="team__prof">CFO</div>
+            </div>
+
+            <div class="team__item swiper-slide">
+              <div class="team__photo">
+                <img src="images/team/3.png" alt="">
+              </div>
+              <div class="team__name">Туманов Владимир</div>
+              <div class="team__prof">CRO</div>
+            </div>
+
+            <div class="team__item swiper-slide">
+              <div class="team__photo">
+                <img src="images/team/4.png" alt="">
+              </div>
+              <div class="team__name">Лисковец Борис</div>
+              <div class="team__prof">Head of Data Science</div>
+            </div>
+
+            <div class="team__item swiper-slide">
+              <div class="team__photo">
+                <img src="images/team/5.png" alt="">
+              </div>
+              <div class="team__name">Шишкин Михаил</div>
+              <div class="team__prof">Product Designer</div>
+            </div>
+
+          <div class="team__item swiper-slide more">
+            <div class="team__photo">
+              <img src="images/team/6.png" alt="">
+            </div>
+            <div class="team__name">Урбан Алексей</div>
+            <div class="team__prof">Founder, CEO</div>
+          </div>
+
+          <div class="team__item swiper-slide more">
+            <div class="team__photo">
+              <img src="images/team/7.png" alt="">
+            </div>
+            <div class="team__name">Гомкцян Мигран</div>
+            <div class="team__prof">CFO</div>
+          </div>
+
+          <div class="team__item swiper-slide more">
+            <div class="team__photo">
+              <img src="images/team/8.png" alt="">
+            </div>
+            <div class="team__name">Туманов Владимир</div>
+            <div class="team__prof">CRO</div>
+          </div>
+
+          <div class="team__item swiper-slide more">
+            <div class="team__photo">
+              <img src="images/team/9.png" alt="">
+            </div>
+            <div class="team__name">Лисковец Борис</div>
+            <div class="team__prof">Head of Data Science</div>
+          </div>
+
+          <div class="team__item swiper-slide more">
+            <div class="team__photo">
+              <img src="images/team/10.png" alt="">
+            </div>
+            <div class="team__name">Шишкин Михаил</div>
+            <div class="team__prof">Product Designer</div>
+          </div>
+
+          <div class="team__item swiper-slide more">
+            <div class="team__photo">
+              <img src="images/team/11.png" alt="">
+            </div>
+            <div class="team__name">Урбан Алексей</div>
+            <div class="team__prof">Founder, CEO</div>
+          </div>
+
+          <div class="team__item swiper-slide more">
+            <div class="team__photo">
+              <img src="images/team/12.png" alt="">
+            </div>
+            <div class="team__name">Гомкцян Мигран</div>
+            <div class="team__prof">CFO</div>
+          </div>
+
+          <div class="team__item swiper-slide more">
+            <div class="team__photo">
+              <img src="images/team/13.png" alt="">
+            </div>
+            <div class="team__name">Туманов Владимир</div>
+            <div class="team__prof">CRO</div>
+          </div>
+
+          <div class="team__item swiper-slide more">
+            <div class="team__photo">
+              <img src="images/team/14.png" alt="">
+            </div>
+            <div class="team__name">Лисковец Борис</div>
+            <div class="team__prof">Head of Data Science</div>
+          </div>
+
+          <div class="team__item swiper-slide more">
+            <div class="team__photo">
+              <img src="images/team/15.png" alt="">
+            </div>
+            <div class="team__name">Шишкин Михаил</div>
+            <div class="team__prof">Product Designer</div>
+          </div>
+      </div><!--/SLIDER wrapper-->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+    </div><!--/SLIDER container-->
+    <a class="team__link" href="" id="load__more">Посмотреть ещё</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__inner">
+      <div class="footer__info">
+        <div class="footer__app">
+          <a href="https://play.google.com/store" target="_blank"><img class="footer__download download" src="images/footer__app.svg" alt=""></a>
+          <a href="https://play.google.com/store" target="_blank"><img class="footer__download download" src="images/footer__google.svg" alt=""></a>
+        </div>
+        <div class="switch__container">
+        <label class="switch">
+          <input class="checkbox" type="checkbox">
+          <div class="slider"></div>
+        </label>
+        </div>
+        <div class="footer__link">
+          <a class="footer__hide link" href="Privacy_Policy.html">Политика конфиденциальности</a>
+          <a class="footer__policy link" href="Privacy_Policy.html">Политика конфид.</a>
+          <a class="link" href="Privacy_Policy.html">Условия</a>
+        </div>
+        <div class="footer__copyright">© 2021 newbody. Все права защищены.</div>
+      </div>
+
+      <div class="footer__menu">
+
+        <ul class="menu__item">
+          <li class="menu__title">О нас</li>
+          <li class="menu__list"><a class="link" href="#how">Работа приложения</a></li>
+          <li class="menu__list"><a class="link" href="#features">Преимущества</a></li>
+          <li class="menu__list"><a class="link" href="#team">Команда</a></li>
+        </ul>
+
+        <ul class="menu__item">
+          <li class="menu__title">Контакты</li>
+          <li class="menu__list"><a class="link">Связаться с нами</a></li>
+          <li class="menu__list"><a class="link">Поддержка</a></li>
+        </ul>
+
+        <div class="menu__item">
+          <div class="menu__title">Социальные сети</div>
+         <div class="menu__socials">
+           <a class="socials" href="https://www.instagram.com" target="_blank"><img src="images/socials/insta.svg" alt=""></a>
+           <a class="socials" href="https://web.telegram.org" target="_blank"><img src="images/socials/telegram.svg" alt=""></a>
+           <a class="socials" href="https://www.facebook.com" target="_blank"><img src="images/socials/facebook.svg" alt=""></a>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

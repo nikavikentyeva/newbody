@@ -1,0 +1,15 @@
+<svg width="16" height="671" viewBox="0 0 16 671" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.1" d="M7.99997 530L8.99997 530L7.99997 530ZM7.29286 670.707C7.68338 671.098 8.31655 671.098 8.70707 670.707L15.071 664.343C15.4616 663.953 15.4616 663.319 15.071 662.929C14.6805 662.538 14.0473 662.538 13.6568 662.929L7.99996 668.586L2.34311 662.929C1.95258 662.538 1.31942 662.538 0.928896 662.929C0.538371 663.319 0.538371 663.953 0.928896 664.343L7.29286 670.707ZM7.99999 80L6.99999 80L7.99999 80ZM6.99997 530L6.99996 670L8.99996 670L8.99997 530L6.99997 530ZM6.99998 280L6.99997 530L8.99997 530L8.99998 280L6.99998 280ZM7 -8.19589e-08L6.99999 80L8.99999 80L9 8.19589e-08L7 -8.19589e-08ZM6.99999 80L6.99998 280L8.99998 280L8.99999 80L6.99999 80Z" fill="url(#paint0_linear)"/>
+<circle cx="8" cy="102" r="7" transform="rotate(90 8 102)" fill="#F7F7F7"/>
+<circle cx="8" cy="220" r="7" transform="rotate(90 8 220)" fill="#F7F7F7"/>
+<circle cx="8" cy="338" r="7" transform="rotate(90 8 338)" fill="#F7F7F7"/>
+<circle cx="8" cy="456" r="7" transform="rotate(90 8 456)" fill="#F7F7F7"/>
+<circle cx="8" cy="574" r="7" transform="rotate(90 8 574)" fill="#F7F7F7"/>
+<defs>
+<linearGradient id="paint0_linear" x1="6.99997" y1="-70" x2="6.99991" y2="1130" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F7F7F7" stop-opacity="0"/>
+<stop offset="0.15625" stop-color="#F7F7F7"/>
+<stop offset="1" stop-color="#F7F7F7"/>
+</linearGradient>
+</defs>
+</svg>
