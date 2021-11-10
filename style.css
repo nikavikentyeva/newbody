@@ -637,6 +637,8 @@ body._touch .nav__list > li._active .arrow{
 }
 
 .team__photo {
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -994,7 +996,7 @@ input:checked + .slider:before {
 .sidebar {
     position: sticky;
     top: 70px;
-    height: 468px;
+    height: 545px;
 }
 
 .sidebar__title {
@@ -1215,6 +1217,15 @@ input:checked + .slider:before {
     .privacy__content {
         margin: 0;
         max-width: 100%;
+    }
+    .text {
+        margin-bottom: 25px;
+    }
+    .pr__title {
+        margin-bottom: 15px;
+    }
+    .usage__list {
+        margin-bottom: 25px;
     }
 }
 
@@ -1572,7 +1583,6 @@ input:checked + .slider:before {
 
     .text {
         font-size: 14px;
-        margin-bottom: 60px;
     }
 
     .data__text {
@@ -1684,6 +1694,9 @@ input:checked + .slider:before {
         width: 0;
         height: 0;
         background: none;
+    }
+    .features__item:last-child {
+        margin-bottom: 0;
     }
 
     .demo__timer-item:not(:last-child) {
