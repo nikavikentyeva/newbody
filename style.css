@@ -678,7 +678,7 @@ body._touch .nav__list > li._active .arrow{
             45deg);
     -webkit-transform: rotate(
             45deg);
-    left: 50%;
+    left: 49%;
     top: 30px;
     cursor: pointer;
 }
